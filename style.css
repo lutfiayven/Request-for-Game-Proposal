@@ -1,0 +1,270 @@
+body#indexBody {
+    font-family: 'Courier New', Courier, monospace;/*'Pixelify Sans', sans-serif;*/
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds8.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    text-align: center;
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds8.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body#lorepageBody, body#page1Body, body#page2Body, body#page3Body, body#page4Body{
+    font-family: 'Courier New', Courier, monospace;
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds7.png'); */
+    /* background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    padding: 0.5em 6em 2em 6em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+body#lorepageBody {
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds7.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds7.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:  #f04633;
+}
+
+body#page1Body{
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds2.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds2.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* padding: 0.5em 6em 2em 6em; */
+    /* text-align: left;
+    font-size: large;
+    font-weight: bold; */
+    color: maroon;
+}
+
+body#page2Body{
+    /* font-family: 'Courier New', Courier, monospace;; */
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds4.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds4.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1a4069;;
+    /* padding: 5vw;
+    text-align: left;
+    font-size: large;
+    font-weight: bold; */
+}
+
+body#page3Body{
+    /* font-family: 'Courier New', Courier, monospace;; */
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds3.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds3.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1d1d9b;
+    /* padding: 2em 4em 2em 4em;
+    text-align: left;
+    font-size: large;
+    font-weight: bold; */
+}
+
+body#page4Body{
+    /* font-family: 'Courier New', Courier, monospace;; */
+    /* background-image: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds5.png');
+    background-position: center;
+    background-size: 100rem 90rem;
+    background-repeat: no-repeat; */
+    background: url('assets/Ocean-and-Clouds-Free-Pixel-Art-Backgrounds5.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1d1d9b;
+    /* padding: 5vw;
+    text-align: left;
+    font-size: large;
+    font-weight: bold; */
+}
+
+.titleCont {
+    margin: auto;
+    margin-top: 10rem;
+    width: 80%;
+    height: 60%;
+    font-size: 30px;
+    color: darkblue;
+    text-shadow:
+    2px 2px 0 #fff,
+    -2px 2px 0 #fff,
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff;
+}
+
+#workingTitle {
+    background: -webkit-linear-gradient(#ee8952, #d3e73c, #23d541, #2358d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#headerCont {
+    text-align: center;
+    height: 4em;
+}
+
+#headerCont h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    background: -webkit-linear-gradient(#ee8952, #d3e73c, #23d541, #2358d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+#studioName, #rfpNo {
+    font-size: 30px;
+    color: darkblue;
+    text-shadow:
+    1px 1px 0 #fff,
+    -1px 1px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff;
+}
+
+#studioName {
+    float: left;
+}
+
+#rfpNo {
+    float: right;
+}
+
+.button {
+    padding: 1em;
+    margin: 1em;
+    /* background-color: darkblue; */
+    color: white;
+    width: 8em;
+    background: linear-gradient(-45deg, #528bee, #3c6ae7, #3523d5, #7023d5);
+    animation: gradient 15s ease infinite;
+    font-weight: bold;
+}
+
+.btnCont {
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#loreCont, #descriptionCont, #productOverviewCont, #effortCont, #strengthCont, #riskCont, #concernsCont, #signOffCont {
+    width: 78vw;
+    padding: 20px;
+    text-align: center;
+    /* border: 2px solid gray;
+    background-color: silver;
+    border-style: ridge; */
+    text-shadow:
+    1px 1px 0 #fff,
+    -1px 1px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff;
+    /* background-image: linear-gradient(45deg, transparent 20%, firebrick 25%, transparent 25%),
+                      linear-gradient(-45deg, transparent 20%, firebrick 25%, transparent 25%),
+                      linear-gradient(-45deg, transparent 75%, firebrick 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 50px 50px, 50px 50px; */
+}
+
+/* #loreCont {
+    font-size: 20px !important;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+table, td, th {
+    border: 3px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.typewriter1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid lightgray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+        typing 3.5s steps(30, end);
+        /* blink-caret .5s step-end infinite; */
+    /* -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+}
+
+.typewriter2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid lightgray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+        typing 3.5s steps(30, end);
+        /* blink-caret .5s step-end infinite; */
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: start }
+    to { width: end }
+}
+  
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: lightgray }
+} */
